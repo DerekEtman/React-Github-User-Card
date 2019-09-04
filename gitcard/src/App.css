@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+}
+
+
+
+
+.userImage{
+  width:7rem;
+  border-radius: 5rem;
+}
+.mainImage{
+  width:50%;
+  margin: 0 auto;
+}
+
+.followerCard{
+  border:1px solid whitesmoke;
+  display:flex;
+  padding: 1rem;
+  border-radius: 15px;
+  /* width: 50vw; */
+  margin:2rem auto;
+  box-shadow: 0px 0px 39px -20px;
+  font-size: calc(10px + 2vmin);
+}
+@media only screen and (max-width:1100px){
+  .followerCard{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+
+.content{
+  /* padding:0 2rem; */
+  margin: auto;
+    font-size: calc(10px + 2vmin);
+}
+.meta{
+  color: whitesmoke;
+  font-size: calc(10px + 2vmin);
+}
+
+.app-link {
+  color: #61dafb;
+}
